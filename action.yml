@@ -1,0 +1,6 @@
+name: 'Latex-multicompiler'
+author: 'Gianmarco Pettinato <gianmarco.pettinato@gmail.com>'
+description: 'spell check pdfs'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
