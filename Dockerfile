@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt update
-RUN apt install -y aspell
+RUN apt install -y aspell poppler-utils
 
 COPY spellChecker.sh /entrypoint.sh
 
