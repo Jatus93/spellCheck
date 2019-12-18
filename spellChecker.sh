@@ -2,7 +2,7 @@
 apt install -y aspell-it;
 echo $(pwd)
 cd /github/workspace
-##cd $INPUT_DIRECTORY
+cd $INPUT_DIRECTORY
 ls *.pdf > pdfList.txt
 while IFS= read -r document || [ -n "$document" ]
 do
