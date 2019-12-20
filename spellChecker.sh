@@ -1,9 +1,9 @@
-!#bin/sh
+#!bin/sh
 cd /github/workspace
 cd $INPUT_DIRECTORY
 mkdir spellCheck
 ls *.pdf > spellCheck/pdfList.txt
-IFS=';' read -ra languages <<< "$INPUT_LANGUAGES"
+IFS=';' read -ra languages <<< $INPUT_LANGUAGES
 while IFS= read -r document || [ -n "$document" ]
 do
     pdftotext $document
