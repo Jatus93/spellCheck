@@ -1,4 +1,4 @@
-name: 'Latex-multicompiler'
+name: 'spellCheck'
 author: 'Gianmarco Pettinato <gianmarco.pettinato@gmail.com>'
 description: 'spell check pdfs'
 runs:
